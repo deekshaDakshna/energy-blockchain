@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="blog-default-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+<ellipse id="shadow" fill="#8B9B92" fill-opacity="0.8" cx="306" cy="677.52" rx="122.4" ry="22.644"/>
+<path id="chat-bubble" fill="#F4F6F5" stroke="#8B9B92" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M197.798,569.073L306,674.46l108.201-105.387h173.074c11.995,0,21.665-9.669,21.665-21.664V114.725
+	c0-11.995-9.67-21.665-21.665-21.665H24.725c-11.995,0-21.665,9.669-21.665,21.665v432.807c0,11.995,9.669,21.665,21.665,21.665
+	h173.074V569.073z"/>
+<g id="capspire-logo" transform="translate(0.000000, 4.000000)">
+	<g>
+		<g id="green_9_">
+			<polygon fill="#C1CD23" points="362.304,550.264 165.852,398.12 122.4,170.333 392.781,400.323 			"/>
+		</g>
+		<g id="green-outline_9_">
+			
+				<polyline opacity="0.3" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" enable-background="new    " points="
+				392.781,400.323 362.304,550.264 165.852,398.12 122.4,170.333 230.846,262.623 			"/>
+		</g>
+		<g id="orange_9_">
+			<polygon fill="#F79727" points="489.6,106.441 229.745,263.235 391.68,400.936 480.175,347.079 			"/>
+		</g>
+		<g id="orange-outline_9_">
+			
+				<polyline opacity="0.3" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" enable-background="new    " points="
+				230.969,262.623 489.6,106.441 480.175,347.079 392.781,400.323 			"/>
+		</g>
+		<polygon id="yellow_8_" fill="#FFCF00" points="230.969,262.623 230.602,262.746 292.414,461.523 392.781,400.323 		"/>
+	</g>
+</g>
+<g>
+	<path fill="#F79727" d="M506.609,325.32c8.112,0,14.568,6.279,14.568,14.306s-6.456,14.395-14.656,14.395
+		c-8.201,0-14.743-6.369-14.743-14.395s6.542-14.306,14.743-14.306H506.609z M506.436,328.197c-6.194,0-10.992,5.15-10.992,11.429
+		c0,6.368,4.798,11.429,11.166,11.429c6.194,0.086,10.903-5.061,10.903-11.34c0-6.368-4.709-11.518-10.991-11.518H506.436z
+		 M504.256,347.042h-3.318v-14.306c1.312-0.177,3.141-0.437,5.498-0.437c2.702,0,3.925,0.437,4.884,1.133
+		c0.873,0.611,1.484,1.659,1.484,3.055c0,1.744-1.311,2.877-2.966,3.403v0.174c1.393,0.437,2.093,1.57,2.529,3.487
+		c0.437,2.181,0.785,2.965,1.047,3.491h-3.491c-0.437-0.526-0.696-1.744-1.133-3.491c-0.263-1.481-1.136-2.18-2.966-2.18h-1.568
+		V347.042z M504.34,339.015h1.569c1.833,0,3.317-0.611,3.317-2.092c0-1.311-0.962-2.181-3.054-2.181
+		c-0.873,0-1.485,0.085-1.833,0.174V339.015z"/>
+</g>
+</svg>

@@ -1,0 +1,36 @@
+<div class="add-transaction-body">
+    <mat-card style="background-color: rgba(60,193,255,0.82); margin: 0 40px">
+        <div class="text-inside-card">
+            <mat-card-title style="padding: 20px 30px 20px 0;">Chain</mat-card-title>
+            <mat-card style="margin-bottom: 20px;"  *ngFor="let block of blockChain.chain">
+                <mat-card-title style="padding-bottom: 20px">
+                    Block - {{block.index}}
+                </mat-card-title>
+                <p><strong>Timestamp - </strong>{{block.timestamp * 1000 | date: 'dd-MM-yyyy hh:mm:ss'}}
+                <p><strong>Previous Hash:</strong> {{block.previous_hash}}</p>
+                <p><strong>Hash:</strong> {{block.hash}}</p>
+                <p><strong>Nonce:</strong> {{block.nonce}}</p>
+                <mat-accordion  class="example-headers-align" multi>
+                    <mat-expansion-panel *ngFor="let transaction of block.transactions">
+                        <mat-expansion-panel-header style="background-color: rgba(255,177,53,0.82)" >
+                            <mat-panel-title>
+                                <strong>Trade Id - {{transaction.transaction_id}}</strong>
+                            </mat-panel-title>
+                            <mat-panel-description style="color: black">
+                                Customer Id - {{transaction.customer_id}} | Vendor ID - {{transaction.installer_id}} |
+                                Timestamp - {{transaction.timestamp * 1000 | date: 'dd-MM-yyyy hh:mm:ss'}}
+                            </mat-panel-description>
+                        </mat-expansion-panel-header>
+                        <p style="padding-top: 20px"><strong>Customer Id: </strong> {{transaction.customer_id}}</p>
+                        <p><strong>Vendor Id: </strong> {{transaction.installer_id}}</p>
+                        <p><strong>MegaWatts Transferred: </strong> {{transaction.units_transferred}}</p>
+                        <p><strong>Ownership Status: </strong> {{transaction.ownership_status}}</p>
+                        <p><strong>Origin Country: </strong> {{transaction.origin_country}}</p>
+                        <p><strong>Timestamp: </strong> {{transaction.timestamp * 1000 | date: 'dd-MM-yyyy hh:mm:ss'}}</p>
+                    </mat-expansion-panel>
+                </mat-accordion>
+            </mat-card>
+            <button mat-raised-button color="primary" (click)="isValidChain()">Check Chain Validity</button> &nbsp; &nbsp;
+        </div>
+    </mat-card>
+</div>
